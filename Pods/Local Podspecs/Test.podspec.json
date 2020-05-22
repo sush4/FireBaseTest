@@ -1,0 +1,22 @@
+{
+  "name": "Test",
+  "version": "0.1.0",
+  "summary": "A short description of Test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sush4/Test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sush4": "sushant.kumar@grabtaxi.com"
+  },
+  "source": {
+    "git": "https://github.com/sush4/Test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Test/Classes/**/*"
+}

@@ -10,6 +10,24 @@ target 'HelloFireBase' do
   pod 'Firebase/Database', :inhibit_warnings => true
   pod 'Firebase/Auth', :inhibit_warnings => true
 
+  $local_path = 'Development'
+
+  # Declare a local (development) pod used in the project.
+  # This function is preferred over "pod <MyPod>, :path => <Parent dir>".
+  # Note that the dir structure of the podspec must following this structure:
+  # ----- ParentDir/
+  #           |
+  #            ---- MyPod/ ---- Classes/
+  #                    |
+  #                     ------- MyPod.podspec
+  def local_pod(name, *args, **kwargs)
+    kwargs_cloned = kwargs.clone
+    kwargs_cloned[:path] = "#{kwargs[:path]}/#{name}"
+    pod name, *args, **kwargs_cloned
+  end
+
+  local_pod 'Login', :path => $local_path
+
   target 'HelloFireBaseTests' do
     inherit! :search_paths
     # Pods for testing

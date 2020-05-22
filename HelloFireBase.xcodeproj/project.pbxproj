@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53A3C4E0B5D130107AF1F6E1 /* Pods_HelloFireBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD178E8CFA5E06EE123376C /* Pods_HelloFireBase.framework */; };
 		6E68BDE123F9CC5DA68CFC70 /* Pods_HelloFireBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED52E7E7C7AB55362EDF2D57 /* Pods_HelloFireBaseTests.framework */; };
 		D4966E4523A70E0100B4B2D7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4966E4423A70E0100B4B2D7 /* TestViewController.swift */; };
-		D4CBC84DD5E686F6FF10D0EB /* Pods_HelloFireBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6056E3EB357884DFB511A4 /* Pods_HelloFireBase.framework */; };
 		D4CC047D23A14D3F00397DDA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4CC047C23A14D3F00397DDA /* GoogleService-Info.plist */; };
 		D4E7D19323A149E600975CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7D19223A149E600975CF0 /* AppDelegate.swift */; };
 		D4E7D19523A149E600975CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7D19423A149E600975CF0 /* ViewController.swift */; };
@@ -32,8 +32,8 @@
 /* Begin PBXFileReference section */
 		64F813E909F5CA84CF2AFEA3 /* Pods-HelloFireBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloFireBase.release.xcconfig"; path = "Target Support Files/Pods-HelloFireBase/Pods-HelloFireBase.release.xcconfig"; sourceTree = "<group>"; };
 		6B4A5254D3497B0C9240FE2C /* Pods-HelloFireBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloFireBase.debug.xcconfig"; path = "Target Support Files/Pods-HelloFireBase/Pods-HelloFireBase.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD178E8CFA5E06EE123376C /* Pods_HelloFireBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloFireBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BCCB05263EFCB123877515 /* Pods-HelloFireBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloFireBaseTests.release.xcconfig"; path = "Target Support Files/Pods-HelloFireBaseTests/Pods-HelloFireBaseTests.release.xcconfig"; sourceTree = "<group>"; };
-		BF6056E3EB357884DFB511A4 /* Pods_HelloFireBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloFireBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4966E4423A70E0100B4B2D7 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		D4CC047C23A14D3F00397DDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D4E7D18F23A149E600975CF0 /* HelloFireBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFireBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CBC84DD5E686F6FF10D0EB /* Pods_HelloFireBase.framework in Frameworks */,
+				53A3C4E0B5D130107AF1F6E1 /* Pods_HelloFireBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +73,8 @@
 		0E616AAC3683B54DE6C59D58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6056E3EB357884DFB511A4 /* Pods_HelloFireBase.framework */,
 				ED52E7E7C7AB55362EDF2D57 /* Pods_HelloFireBaseTests.framework */,
+				6CD178E8CFA5E06EE123376C /* Pods_HelloFireBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

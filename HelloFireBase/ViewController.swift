@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseDatabase
+import Login
 
 class ViewController: UIViewController {
 
@@ -32,6 +33,8 @@ class ViewController: UIViewController {
     button.heightAnchor.constraint(equalToConstant: 40).isActive = true
     button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     button.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+//    let testView = TestView()
+//    print(testView)
     let test = Database.database().reference(withPath: "users")
 //    let ref = Database.database().reference()
     test.observe(.value) { snapshot in
@@ -45,12 +48,6 @@ class ViewController: UIViewController {
   @objc private func tapButton() {
     let test = Database.database().reference(withPath: "users")
     test.setValue(["4": "test4"])
-
-//    let test = TestViewController()
-//    test.view.backgroundColor = .blue
-//    let nav = UINavigationController(rootViewController: test)
-//    self.present(nav, animated: true, completion: nil)
-//    navigationController?.pushViewController(test, animated: true)
   }
 
 }

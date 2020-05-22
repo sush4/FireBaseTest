@@ -1,0 +1,22 @@
+{
+  "name": "Login",
+  "version": "0.1.0",
+  "summary": "A short description of Login.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sush4/Login",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sush4": "sushant.kumar@grabtaxi.com"
+  },
+  "source": {
+    "git": "https://github.com/sush4/Login.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Login/Classes/**/*"
+}
